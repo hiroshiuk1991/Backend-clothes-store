@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
 
-  post '/signin', to: 'customers#signin'
+  post '/signup', to: 'customers#signup'
   get './validate', to: 'customers#validate'
 
 end
